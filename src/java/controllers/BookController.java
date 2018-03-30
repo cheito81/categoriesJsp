@@ -166,7 +166,7 @@ public class BookController extends HttpServlet {
         }
         request.setAttribute("fields", lista);
         
-        RequestDispatcher d = request.getRequestDispatcher("view/bookViews/bookRegister.jsp");
+        RequestDispatcher d = request.getRequestDispatcher("view/booksViews/bookRegister.jsp");
         d.forward(request, response);
 
     }
