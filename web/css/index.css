@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+        background: url(../images/fondo.jpg) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+aside {
+    text-align: center;
+    width: 50%;
+  margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    float: left;
+
+}
+#formLogout{
+    display: inline;
+}
+.labelRegister{
+    width: 150px;
+    display: none;
+    float: left;
+}
+#userLoggedLabel{
+    width: 8%;
+}
+div > p{
+    text-align: center;
+}
+#butSig,
+#inUserSig,
+#inPasSig {
+    margin-bottom: 8em;
+}
+#butForm{
+   
+    margin-bottom: 2em;
+}
+li > div {
+    align-content: center;
+}
+
+footer{
+    float: left;  
+    background-color: #222222;
+    color: #9d9d9d;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    clear: both;
+    text-align: center;
+}
+
+panelRegister{
+   width:  20%;
+}
+
+.tableListar {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+        
+}
+.contentTable{
+    align-content: center;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+table > td{
+    width: 20px;
+   
+}
+#thNameForm{
+    text-align: center;
+}
